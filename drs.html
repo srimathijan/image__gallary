@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./logo.png" alt="">
+            <h1>Image <span>Gallary</span></h1>
+
+        </div>
+        <ul>
+            <li><a href="index.html">All</a></li>
+            <li><a href="drs.html">Dresses</a></li>
+            <li><a href="foot.html">Foot wear</a></li>
+            <li><a href="pro.html">products<a></a></li>
+        </ul>
+        <div class="menu-bar">
+            <i class="fa-solid fa-bars" style="color: #000000;"  onclick="toggleMenu()"></i>
+    
+         </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1 class="header__tittle">View Items & Make Purchase</h1>
+            <p class="under__tittle">no one brand | products | dress | foot wear</p>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="image__container">
+            <div class="images">
+                <a href="./drs-1.jpg" data-lightbox="models" data-tittle="ethinic style">
+                <img src="./drs-1.jpg" alt="">
+            </a>
+            </div>
+        </div>
+        <div class="image__container">
+            <div class="images">
+                <a href="./drs-2.jpg" data-lightbox="models" data-tittle="ethinic style">
+                <img src="./drs-2.jpg" alt="">
+            </a>
+            </div>
+        </div>
+        <div class="image__container">
+            <div class="images">
+                <a href="./drs-3.jpg" data-lightbox="models" data-tittle="ethinic style">
+                <img src="./drs-3.jpg" alt="">
+            </a>
+            </div>
+        </div>
+    <div class="image__container">
+    <div class="images">
+        <a href="./drs-4.jpg" data-lightbox="models" data-tittle="ethinic style">
+        <img src="./drs-4.jpg" alt="">
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="container-2">
+    <div class="image__container">
+    <div class="images">
+        <a href="./drs-5.jpg" data-lightbox="models" data-tittle="ethinic style">
+        <img src="./drs-5.jpg" alt="">
+    </a>
+    </div>
+    </div>
+    <div class="image__container">
+    <div class="images">
+        <a href="./drs-6.jpg" data-lightbox="models" data-tittle="ethinic style">
+        <img src="./drs-6.jpg" alt="">
+    </a>
+    </div>
+    </div>
+    <div class="image__container">
+    <div class="images">
+        <a href="./drs-7.jpg" data-lightbox="models" data-tittle="ethinic style">
+        <img src="./drs-7.jpg" alt="">
+    </a>
+    </div>
+    </div>
+    <div class="image__container">
+    <div class="images">
+        <a href="./drs-8.jpg" data-lightbox="models" data-tittle="ethinic style">
+        <img src="./drs-8.jpg" alt="">
+    </a>
+    </div>
+    </div>
+    </div>
+    <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight="0px";
+        function toggleMenu(){
+            if(menulist.style.maxHeight =="0px")
+            {
+                menulist.style.maxHeight = "300px"
+            }
+            else{
+                menulist.style.maxHeight ="0px"
+            }
+        }
+    
+     </script>
+     
+    <script src="lightbox.js"></script>
+</body>
+
+</html>
